@@ -1,0 +1,3 @@
+-- Calcolare il nome dei bevitori che frequentano
+-- almeno due bar diversi, evitando ripetizioni nel
+-- risultato

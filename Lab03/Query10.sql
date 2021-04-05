@@ -1,0 +1,4 @@
+-- Chiamiamo «standardizzata» una birra che è venduta
+-- allo stesso prezzo in tutti i bar. Calcolare le fabbriche
+-- di birra che fabbricano almeno una birra non
+-- standardizzata

@@ -1,0 +1,3 @@
+-- Calcolare quali bevitori frequentano più di 5 volte
+-- almeno un bar che si trova in un indirizzo diverso da
+-- quello del bevitore 

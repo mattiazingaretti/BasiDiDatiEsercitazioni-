@@ -1,0 +1,3 @@
+-- Calcolare le triple <x,y,z> tali che x è una birra, y è la
+--fabbrica di x e z è un bar in cui la birra x viene servita
+-- e non è la più cara tra le birre servite da y
