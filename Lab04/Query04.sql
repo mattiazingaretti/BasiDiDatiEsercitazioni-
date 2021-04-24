@@ -1,6 +1,10 @@
--- Calcolare le coppie di bevitori che risiedono nello
--- stesso indirizzo
+-- Per ogni garage attivo mostrare il codice del garage, la città in cui si trova il garage ed
+-- il numero complessivo di custodie di automobili in quel garage
 
-SELECT  A.nome AS Nome1 , B.nome AS Nome2
-FROM bevitore A ,bevitore B 
-WHERE A.nome < B.nome  AND A.indirizzo = B.indirizzo
+SELECT  C.codgarage,SUM(C.numero) AS totale, G.citta
+FROM custodita C
+JOIN garage G ON C.codgarage=G.codice
+GROUP BY C.codgarage, G.citta
+
+
+

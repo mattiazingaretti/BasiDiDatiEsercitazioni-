@@ -1,13 +1,13 @@
--- Calcolare quali bevitori frequentano più di 5 volte
--- almeno un bar che si trova in un indirizzo diverso da
--- quello del bevitore 
+-- Mostrare i garage che non hanno mai custodito automobili immatricolate nella
+-- stessa città in cui si trova il garage.
+
+SELECT DISTINCT G.codice
+FROM custodita C , garage G , automobile A 
+WHERE C.targaauto=A.targa AND C.codgarage=G.codice AND G.citta NOT IN (
+																		SELECT A1.citta
+																		FROM  custodita C1, automobile A1 
+																		WHERE C1.codgarage=G.codice AND A1.targa=C1.targaauto 
+																		)
 
 
-SELECT T.nome FROM (
-	SELECT C.nome, COUNT(B.volte_a_settimana)
-	FROM bar A 
-	JOIN frequenta B ON A.nome = B.bar 
-	JOIN bevitore C ON B.bevitore=C.nome 
-	WHERE A.indirizzo != C.indirizzo
-	GROUP BY C.nome
-) T WHERE T.count > 4
+																		
