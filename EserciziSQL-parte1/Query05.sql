@@ -1,6 +1,6 @@
 --Per ogni squadra con prestigio maggiore o uguale a 4,
 -- calcolare la media dei gol fatti dai suoi giocatori, 
---  mostrando il nome della squadra e tale media.
+--  mostrando il nome della squadra e tale media. Query corretta
 
 select squadra.nome, AVG(giocato.gol)::numeric(10,2)
 from squadra 

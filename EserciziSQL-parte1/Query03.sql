@@ -1,5 +1,7 @@
 -- Calcolare il codice e il cognome dei giocatori 
--- che non hanno fatto alcun gol.
+-- che non hanno fatto alcun gol. 
+-- Query corretta
+
 
 SELECT giocatore.codice, giocatore.cognome 
 FROM  giocatore,

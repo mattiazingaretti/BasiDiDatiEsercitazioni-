@@ -1,6 +1,7 @@
 -- Calcolare,per ogni squadra con prestigio minore di 3,il numero di giocatori 
 -- che hanno fatto piu` di 10 gol per quella squadra, 
 -- mostrando il nome della squadra e il numero di tali giocatori.
+-- QUery corretta
 
 select squadra.nome, COUNT(distinct giocatore.codice)
 from squadra 

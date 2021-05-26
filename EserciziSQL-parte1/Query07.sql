@@ -1,5 +1,6 @@
 -- Calcolare il codice, il cognome e il numero dei gol (rispettando quest’ordine)
--- dei giocatori che hanno giocato nel Milan e in nessuna altra squadra.
+-- dei giocatori che hanno giocato nel Milan e in nessuna altra squadra. 
+-- Query corretta
 
 
 

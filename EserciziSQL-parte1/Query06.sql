@@ -1,6 +1,7 @@
 -- Mostrare, per ogni giocatore con eta` maggiore o uguale a 28 anni,
 -- il codice e la media dei gol fatti nelle squadre,
 -- ma restringendo l’attenzione solo sui giocatori la cui media e` superiore a 15.
+-- QUery corretta
 
 
 
